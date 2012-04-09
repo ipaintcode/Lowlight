@@ -1,0 +1,182 @@
+/*
+	@theme Espresso tutti colori
+	@override-placeholders html, xml, sourcecode.js
+*/
+
+:document-base {
+	color: #D4D4D4;
+	background-color: #18181B;
+	insertion-point-color: #6C6C6C;
+	selection-background-color: #39434C;
+	current-line-background-color: rgba(0, 0, 0, .2);
+}
+
+tag, source, sourcecode {
+	spell-check: disabled;
+}
+
+tag, tag > string > punctuation {
+	color: #628361;
+}
+
+tag > name, tag > string.quoted - punctuation, attribute-with-value > string.quoted - punctuation {
+	oldcolor: #677282;
+}
+
+tag>name {
+	color: #AF9D23;
+}
+
+attribute-name, punctuation.definition.tag {
+	color: #B06520;
+}
+
+tag > string.quoted, tag > attribute-with-value > string.quoted {
+	color: #5684A2;
+}
+
+tag > string > punctuation {
+	font-weight: normal;
+}
+constant.character.entity {
+	color:  #E4575A;
+}
+
+attribute-name.style,
+selector.css {
+	color: #925B36;
+}
+property-list.block.css string.quoted.double,
+support.function.misc.css > string.quoted.single,
+property-list.block.css string.quoted.single {
+	color: #447094;
+}
+at-rule.media.css {
+	color: #2F857A;
+}
+property-list.block.css punctuation.begin,
+property-list.block.css punctuation.end {
+	color: #CACAC3;
+}
+at-rule.media.css support.constant{
+	color: #95962A;
+}
+support.function.misc.css,
+support.function.misc.css > name {
+	color: #61B1AF;
+}
+keyword.important.css {
+	color: #61B1AF;
+}
+support.function.color.css > name {
+	color: #EDD34D;
+}
+punctuation.section.function.css {
+	color: white;
+}
+property-list.block.css constant.numeric.css,
+constant.other.color.rgba-value.css,
+constant.other.color.rgb-value.css {
+	color: #C3C154;
+}
+selector.css pseudo-class {
+	color: #548A69;
+}
+css.embedded attribute-name, css.embedded punctuation.definition.tag {
+	color: #DF9F4F;
+}
+
+embedded.property-list.css property-name,
+property-list.block.css property-name {
+	color: #1B7C84;
+}
+
+embedded.property-list.css property-value,
+property-list.block.css property-value {
+	color: #979A34;
+}
+
+comment, comment>punctuation, tag.doctype, tag.doctype > *, tag.doctype > string.quoted {
+	color: #3C434D;
+}
+
+tag.h1, tag.h1 * {
+	font-weight: bold;
+	color: #000000;
+}
+
+string.quoted-alt {
+	color: #1aa1a1;
+}
+
+string.quoted {
+	color: #5684A2;
+}
+
+string.quoted > punctuation {
+/*	color: #e69a4c;*/
+}
+
+string.quoted > escape {
+	font-weight: bold;
+}
+variable.x-assignment {
+	color: #CACACA;
+}
+variable.property.x-assignmentname {
+	color: #CACACA;
+}
+variable {
+	color: #61A6B0;
+}
+variable.function() {
+	color: #2E8996;
+}
+variable>punctuation {
+	color: #865fdb;
+}
+variable.function.method {
+	color: #EDC13D;
+}
+operator {
+	color: #7AFF79;
+}
+punctuation.round.close,
+punctuation.round.open {
+	color: #C1BF5E;
+}
+open-bracket, close-bracket {
+	color: #7f7f7f;
+}
+
+support.function, function-call {
+	color: #4e279a;
+	font-weight: boldd;
+}
+
+storage.type {
+	color: #89A177;
+}
+keyword.control {
+	color: #8F8819;
+}
+function > name {
+	color: #2E9F2B;
+}
+
+js.embedded {
+	color: #434343;
+}
+
+constant.numeric, constant.language {
+	color: #C47849;
+}
+
+invalid {
+	background-color: #f93232;
+	color: #f9f2ce;
+}
+
+textile > header {
+	font-weight: bold;
+}
