@@ -6,6 +6,7 @@ Version 0.1 | Lowlight port from TextMate (not sure who original author was)
 
 * Inspired by a TextMate theme: Lowlight
 * Will tweak theme when I get time or feel free to fork and tweak
+* Need to clean up CSS, it's roughed in at the moment
 
 Installation
 ------------
