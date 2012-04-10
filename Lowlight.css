@@ -8,7 +8,7 @@
 	background-color: #18181B;
 	insertion-point-color: #6C6C6C;
 	selection-background-color: #39434C;
-	current-line-background-color: rgba(0, 0, 0, .2);
+	current-line-background-color: rgba(0, 0, 0, .3);
 }
 
 tag, source, sourcecode {
